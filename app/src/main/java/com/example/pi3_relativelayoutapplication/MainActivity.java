@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void retrocer(View v){
+    public void retroceder(View v){
         switch (orden){
             case 1: imagen.setImageResource(R.drawable.img1);
                 orden = 1;
